@@ -22,7 +22,7 @@ java.io.IOException: The handle is invalid
 	at aep$1.run(SourceFile:92) [server-1.19.jar:?]
 [01:34:13] [Server thread/INFO]: Starting Minecraft server on *:25565
 [01:34:13] [Server thread/INFO]: Using default channel type
-[01:34:14] [Server thread/INFO]: Preparing level "world"
+[01:34:14] [Server thread/INFO]: Preparing level "tmp"
 [01:34:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
 [01:34:36] [Worker-Main-4/INFO]: Preparing spawn area: 0%
 [01:34:36] [Worker-Main-4/INFO]: Preparing spawn area: 0%
@@ -105,10 +105,10 @@ java.io.IOException: The handle is invalid
 [01:36:47] [Server thread/INFO]: Stopping server
 [01:36:47] [Server thread/INFO]: Saving players
 [01:36:47] [Server thread/INFO]: Saving worlds
-[01:36:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:36:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tmp]'/minecraft:overworld
+[01:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tmp]'/minecraft:the_nether
+[01:36:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[tmp]'/minecraft:the_end
+[01:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (tmp): All chunks are saved
 [01:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [01:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [01:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
